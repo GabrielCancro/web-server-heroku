@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GabrielCancro/web-server-heroku/issues"
   },
-  "homepage": "https://github.com/GabrielCancro/web-server-heroku#readme"
+  "homepage": "https://github.com/GabrielCancro/web-server-heroku#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
