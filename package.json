@@ -1,0 +1,20 @@
+{
+  "name": "web-server-heroku",
+  "version": "1.0.0",
+  "description": "A web server ( git + heroku + node.js )",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCancro/web-server-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCancro/web-server-heroku/issues"
+  },
+  "homepage": "https://github.com/GabrielCancro/web-server-heroku#readme"
+}
