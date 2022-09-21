@@ -20,7 +20,7 @@ app.get('/time', function (req, res, next) { // GET 'http://www.example.com/admi
   console.dir(req.baseUrl) // '/admin'
   console.dir(req.path) // '/new'
   console.dir(req.baseUrl + req.path) // '/admin/new' (full path without query string)
-  let ts = Date.now();
+  let ts = Math.floor(Date.now() / 1000);
   res.send({time:ts})
   
 
